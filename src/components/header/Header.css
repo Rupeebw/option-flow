@@ -1,0 +1,36 @@
+
+/* Header.css for styling the Header Component */
+/* Place this file in the same directory as Header.js */
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #282c34;
+    color: white;
+  }
+  
+  .header__title {
+    font-size: 1.5em;
+  }
+  
+  .header__nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .header__nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .header__nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .header__language select {
+    padding: 5px;
+  }
